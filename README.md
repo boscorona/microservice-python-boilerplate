@@ -3,13 +3,14 @@
 A template micro-service you can use for your distributed systems, built with Python 3+.
 Built around the principles outlined in [Microservice chassis](https://microservices.io/patterns/microservice-chassis.html) on par with Spring Boot (Java) or Gizmo (Golang).
 
+TODO: Python Microservices With gRPC
 
 **General Challenges Solved:**
-- Externalized configuration
+- Externalized configuration (TODO)
 - Logging
-- Health checks
-- Metrics
-- Distributed tracing
+- Health checks (TODO)
+- Metrics (TODO)
+- Distributed tracing (TODO)
 
 
 ## Install
