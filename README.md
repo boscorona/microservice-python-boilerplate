@@ -14,9 +14,11 @@ Built around the principles outlined in [Microservice chassis](https://microserv
 
 ## Install
 ```
+$ virtualenv new -p python3.8 py-service
+$ pip3 install -r requirements.txt
 ```
 
 ## To Run 
-
 ```
+$ uvicorn main:app --reload --host 0.0.0.0 --port 8000 --log-level='info' 
 ```
